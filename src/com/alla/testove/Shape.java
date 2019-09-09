@@ -18,7 +18,6 @@ public abstract class Shape {
                  ", площадь: " + getArea() +
                  " кв. ед., " + uniqueMethod() +
                  "цвет: " + getColor() + ".");
-
     }
 
 }
