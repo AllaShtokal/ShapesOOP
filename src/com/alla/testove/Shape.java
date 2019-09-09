@@ -4,15 +4,15 @@ public abstract class Shape {
 
     protected String color;
 
-    public abstract double getArea();
-    public abstract String uniqueMethod();
-    public abstract String getName();
+    protected abstract double getArea();
+    protected abstract String uniqueMethod();
+    protected abstract String getName();
 
-    public String getColor(){
+    private String getColor(){
         return color;
     }
 
-    public  void draw() {
+    protected void draw() {
         System.out.println(
                  "Фигура: " + getName() +
                  ", площадь: " + getArea() +

@@ -10,9 +10,10 @@ public class Circle extends Shape {
         this.R = R;
     }
 
-    public double getRadius(){
+    private double getRadius(){
         return R;
     }
+
     @Override
     public String getName(){
         return name;

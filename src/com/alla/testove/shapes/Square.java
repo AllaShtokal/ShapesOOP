@@ -11,14 +11,12 @@ public class Square extends Shape {
         this.side = side;
     }
 
-    public double getSide() {
+    private double getSide() {
         return side;
     }
 
     @Override
-    public String getName(){
-        return name;
-    }
+    public String getName(){ return name; }
 
     @Override
     public double getArea() {

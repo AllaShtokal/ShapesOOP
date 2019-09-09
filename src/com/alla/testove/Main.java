@@ -17,7 +17,7 @@ public class Main {
 
         int SIZE = (int) GenerateValue(1,100); // [1;100)
         System.out.println("Ко-во фигур: " + SIZE);
-        Shape[] shapes = new Shape[SIZE]; //наш массив фигур
+        Shape[] shapes = new Shape[SIZE]; //массив фигур
 
         //заполняем массив и выводим
         for (int i=0; i<SIZE; ++i){
