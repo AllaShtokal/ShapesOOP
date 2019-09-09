@@ -20,7 +20,7 @@ public class Main {
         Shape[] shapes = new Shape[SIZE]; //наш массив фигур
 
         //заполняем массив и выводим
-        for (int i=0; i<SIZE; i++){
+        for (int i=0; i<SIZE; ++i){
             shapes[i] = creators.get((int)GenerateValue(0,creators.size())).Create();// [0,4)
             shapes[i].draw();
             }
