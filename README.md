@@ -1,10 +1,14 @@
 # Testove-Shapes
-Необходимо описать задачу с применением принципов ООП.
 
-Условие тестовой задачи:
-Дано объекты-фигуры следующих видов: квадрат, треугольник, круг, трапеция. Каждую фигуру можно нарисовать, получить ее площадь и цвет. Также фигуры имеют уникальные методы, например: вернуть радиус, длину гипотенузы, длину стороны и т. д.
-Нам необходимо сгенерировать случайный набор фигур, количество объектов в наборе также заранее неизвестно.
-После генерации массива нужно вывести весь список объектов, которые у нас имеются, например:
-Фигура: квадрат, площадь: 25 кв. ед., длина стороны: 5 ед., цвет: синий
-Фигура: треугольник, площадь: 12,5 кв.ед., гипотенуза: 7.1 ед., цвет: желтый
+
+A task condition:
+The following shaped objects are given: square, triangle, circle, trapezium. 
+You can draw each shape, get its area and color. Also shapes have unique methods, for example: return radius, length of hypotenuse, side length, etc.
+
+You need to generate a random set of shapes; the number of objects in the set is also unknown beforehand.
+
+After generating the array, you need to display the entire list of objects that we have, for example:
+Shape: square, area: 25 sq. units, side length: 5 units, color: blue
+Figure: triangle, area: 12,5 sq.m., hypotenuse: 7.1 units, color: yellow
+
 ...
